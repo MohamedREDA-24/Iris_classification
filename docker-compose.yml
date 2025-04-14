@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ./api
+    ports:
+      - "5000:5000"
+  
+  streamlit_ui:
+    build:
+      context: ./streamlit_ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
