@@ -30,7 +30,7 @@ This project implements a machine learning solution for classifying Iris flowers
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/MohamedREDA-24/llm-chatbot.git
+git clone https://github.com/MohamedREDA-24/Iris_classification.git
 cd Iris_classification
 ```
 
